@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1 img{
+	width: 15%;
+	height: auto;
+}
+
+#next{
+	font-size: 25px;
+	margin-left: 15px;
+}
+
+#newGame{
+	margin-left: 15px;
+}
+
+#score{
+	padding: 15px;
+	display: flex;
+}
+
+#undo{
+	visibility: hidden;
+	margin-left: 15px;
+}
+
+#score div{
+	color: white;
+	font-size: 20px;
+	background-color: DarkSlateGray;
+	padding: 15px 20px;
+	text-align: center;
+	margin-left: 5px;
+	font-weight: bold;
+	border-radius: 12px;
+	text-shadow: 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.col:hover{
+	background-color: rgba(0, 0, 0 ,0.1);
+	transition-duration: 0.15s;
+}
+
+#puissance{
+	background-color: white;
+	display: flex;
+}
+
+#puissance .cases{
+	border: 5px solid navy;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	margin: 5px;
+}
+
+
